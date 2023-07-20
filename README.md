@@ -9,5 +9,6 @@ Backend:
 Frontend:
 
 1. Navigate to frontend folder
-2. Run `npm start`
-3. Frontend runs at `http://localhost:3000/`
+2. Run `npm -i`
+3. Run `npm start`
+4. Frontend runs at `http://localhost:3000/`
