@@ -9,6 +9,6 @@ Backend:
 Frontend:
 
 1. Navigate to frontend folder
-2. Run `npm -i`
+2. Run `npm install`
 3. Run `npm start`
 4. Frontend runs at `http://localhost:3000/`
