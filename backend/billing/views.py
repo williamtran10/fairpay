@@ -31,6 +31,13 @@ def get_customer(pk):
     except Order.DoesNotExist:
         raise Http404
 
+
+class ItemView(APIView):
+    def get(self, request):
+        data = Item.objects.all()
+        serializer = ItemSerializer(data, many=True)
+        return Response(serializer.data)
+
 class OrderView(APIView):
 
     def post(self, request):
