@@ -2,7 +2,7 @@ FairPay
 
 Backend:
 
-1. Install packages using `pip install -r path/to/requirements.txt`
+1. Install packages using `pip install -r ./requirements.txt`
 2. Naviate to backend folder and run server using `python manage.py runserver`
 3. Server runs at `http://localhost:8000/`
 
